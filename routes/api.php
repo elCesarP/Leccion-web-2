@@ -27,3 +27,4 @@ Route::prefix('v1/vehiculos')->group(function(){
     Route::put('/{id}', [vehiculoController::class,'update']);
     Route::delete('/{id}', [vehiculoController::class,'delete']);
 });
+/*cesarP*/
